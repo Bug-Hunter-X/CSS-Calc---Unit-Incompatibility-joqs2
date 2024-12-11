@@ -1,0 +1,16 @@
+To correct this, ensure all units within the `calc()` function are consistent.
+
+```css
+/* Correct calculation using consistent units (px) */
+width: calc(100px + 20px); /* Convert em to px if needed */
+
+/*Correct calculation using consistent units (em)*/
+width: calc(5em + 1em); 
+```
+
+Alternatively, you can pre-calculate the value and use a single unit:
+
+```css
+width: 120px; /*Result of 100px + 20px*/
+width: 6em; /*Result of 5em + 1em*/
+```
