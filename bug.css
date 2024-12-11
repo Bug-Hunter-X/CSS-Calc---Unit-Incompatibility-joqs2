@@ -1,0 +1,8 @@
+The CSS property `calc()` is used to perform calculations. However, there might be unexpected results if the calculation involves units that are not compatible.  For instance, adding `px` and `em` directly might lead to parsing errors.
+
+```css
+/* Incorrect calculation */
+width: 100px + 2em; 
+```
+
+This can be solved by ensuring consistent units within the calculation.
