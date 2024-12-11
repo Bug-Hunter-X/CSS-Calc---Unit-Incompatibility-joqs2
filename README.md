@@ -1,0 +1,2 @@
+# CSS Calc() Unit Incompatibility Bug
+This repository demonstrates a common error encountered when using the `calc()` function in CSS. The bug arises from attempting to mix incompatible units (e.g., pixels and ems) directly within a single calculation, leading to unexpected rendering results or parsing errors. The solution shows how to address this by ensuring consistent units or using appropriate conversion techniques.
